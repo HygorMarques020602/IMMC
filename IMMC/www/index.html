@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>title</title>
+  <title>Na Medida</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
@@ -11,16 +11,25 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <!-- page content -->
-
+  <section class="formulario">
+    <form method="get" action="#">
+      <legend><h2>MEDIDA</h2></legend>
+      <label for="altura">Altura</label>
+      <input type="number" name="altura" id="altura">
+      <label for="peso">Peso</label>
+      <input type="number" name="peso" id="peso" class="peso">
+      <label for="biotipo">Biotipo</label>
+      <select name="biotipo" id="biotipo">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+      </select>
+      <button>VERIFICAR</button>
+    </form>
+  </section>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/shuffle.js"></script>
 <script>
-//Usar plugin para embaralhar itens
-//$('ul.lista li').shuffle();
 
-
-//ESCREVA SEU CÓDIGO AQUI	
 </script>
 </body>
 </html>
